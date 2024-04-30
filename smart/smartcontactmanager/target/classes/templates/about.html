@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org"
+	th:replace="base::layout(~{::section})">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+<head>
+<meta charset="UTF-8">
+<title>About us</title>
+</head>
+<body>
+	<section style="text-align: center; font-family: 'Montserrat', sans-serif;"><br>
+    <h1 style="margin-bottom: 20px;">About Us</h1>
+    <img th:src="@{/img/about.jpg}" alt="Group Image" style="display: block; margin: auto ; width: 300px; height: 250px;">
+    <h5 style="margin-top: 40px;">Here we are going to write about Smart Contact Manager
+        Welcome to our Smart Contact Manager Application! We are dedicated to
+        providing you with the best tools to manage your contacts
+        efficiently. Our Team is passionate about creating user-friendly
+        solutions that simplify your life. Whether you're a business
+        professional or an individual, our application is designed to meet
+        your needs.
+    </h5>
+    <p>Feel free to contact us if you have any questions or feedback.
+        We're here to help!
+    </p>
+</section>
+</body>
+</html>
